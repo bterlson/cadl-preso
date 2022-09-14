@@ -279,23 +279,8 @@ function App() {
               Templates
           </aside>
         </section>
-        <section>
-          <section className="flex-col">
-            <h1>Cadl as an App Model</h1>
-          </section>
-          <section className="flex-col">
-            <h1>What if we could sketch a cloud application in Cadl?</h1>
-            <h2>Could we make cloud development easier?</h2>
-          </section>
-          <section className="flex-col">
-            <h1>Well, yes!</h1>
-          </section>
-          <section className="flex-col" data-code-sample="e2edemo">
-            <h1>A full stack app</h1>
-            <div className="cadl-editor-container">
-              <CadlEditor model={cadlModel} commands={cadlEditorCommands} />
-            </div>
-          </section>
+        <section className="center middle">
+          <h1>Demo: Cadl &amp; Spectral</h1>
         </section>
         <section>
           <h1>Cadl is a work in progress</h1>
