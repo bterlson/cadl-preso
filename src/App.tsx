@@ -122,7 +122,7 @@ function App() {
       <div className="slides">
         <section className="flex-col middle">
           <div className="title">
-            <h2 className="subtitle">Azure Developer Devision</h2>
+            <h2 className="subtitle">Azure Developer Division</h2>
             <h1>API-First Services with Cadl</h1>
           </div>
           <p>
@@ -153,7 +153,7 @@ function App() {
             <h2 className="fragment">How to use the same data shapes across many services and protocols?</h2>
           </section>
           <section className="flex-col middle center">
-            <div style={{backgroundImage: "url('/mando.webp')", width:1200, height: 800, backgroundSize: "1200px 600px"}}>
+            <div style={{backgroundImage: "url('/mando.webp')", width:1200, height: 700, backgroundSize: "1200px 700px"}}>
               <h2 style={{textAlign: "left", color: "white", padding: "100px 50px"}}>API First is the way</h2>
             </div>
           </section>
@@ -173,41 +173,40 @@ function App() {
           <section className="flex-col middle center">
             <h1>Cadl makes API first productive and fun</h1>
           </section>
-          <section className="flex-col">
+          <section className="flex-col middle center">
+            <h1>Cadl 💖 OpenAPI</h1>
+            <h2>Cadl emits standards compliant OpenAPI 3</h2>
+            <h4>(we even have an OA2 + custom extensions emitter internally)</h4>
+          </section>
+          <section className="flex-col middle center">
             <h1>Cadl syntax is familiar</h1>
-            <h2>Anyone familiar with any OO language should be able to learn it quickly</h2>
+            <h2>Anyone familiar with OO languages can learn it quickly</h2>
           </section>
-          <section className="flex-col">
+          <section className="flex-col middle center">
             <h1>Cadl is expressive</h1>
-            <h2>Cadl programs are typically much shorter than their OpenAPI counterparts</h2>
+            <h2>Cadl programs are typically much shorter than other description languages</h2>
           </section>
-          <section className="flex-col">
+          <section className="flex-col middle center">
             <h1>Cadl is extensible</h1>
-            <h2>It can define HTTP services, gRPC services, or anything else.</h2>
+            <h2>Define HTTP services, gRPC services, or anything else.</h2>
             <h2 className="fragment">It can be customized with your own metadata</h2>
             <h2 className="fragment">It can emit service specifications, emit implementation code, documentation, etc.</h2>
           </section>
-          <section>
+          <section className="flex-col middle">
             <h1>Cadl is toolable</h1>
-            <h2>Language service with support for VS, VSCode, and Monaco.</h2>
-            <h3>Full suite of features including:</h3>
+            <h2>Language service with support for VS &amp; VSCode</h2>
             <ul>
               <li>go-to-definition</li>
               <li>member completions</li>
               <li>rename refactoring</li>
               <li>symbol explorer</li>
-              <li>Custom lint rules</li>
+              <li>custom lint rules</li>
             </ul>
           </section>
-          <section>
+          <section className="flex-col middle center">
             <h1>Cadl is composable</h1>
-            <h2>You can abstract common patterns into components and share them across your team, organization, or the entire ecosystem.</h2>
-            <h2></h2>
-          </section>
-          <section>
-            <h1>Cadl 💖 OpenAPI</h1>
-            <h2>Cadl emits standards compliant OpenAPI 3</h2>
-            <h4>(we even have an OA2 + custom extensions emitter internally)</h4>
+            <h2>Abstract common patterns into components and share them across your team, organization, or the entire ecosystem.</h2>
+            <h2>Build services from re-usable building blocks</h2>
           </section>
         </section>
         <section style={{textAlign: "left", height: "100vh"}} data-code-sample="basic">
@@ -279,24 +278,24 @@ function App() {
               Templates
           </aside>
         </section>
-        <section className="center middle">
+        <section className="flex-col center middle">
           <h1>Demo: Cadl &amp; Spectral</h1>
         </section>
-        <section>
+        <section className="flex-col center middle">
           <h1>Cadl is a work in progress</h1>
           <h2>Try it out, give feedback 💖</h2>
         </section>
-        <section>
+        <section className="flex-col center middle">
           <h1>Cadl Playground</h1>
           <h2><a href="aka.ms/trycadl">aka.ms/trycadl</a></h2>
         </section>
-        <section>
+        <section className="flex-col center middle">
           <h1>GitHub</h1>
           <h2><a href="https://github.com/microsoft/cadl">github.com/microsoft/cadl</a></h2>
         </section>
-        <section>
+        <section className="flex-col center middle">
           <h1>Thank you!</h1>
-          <h2>I'll be around for questions!</h2>
+          <h2>Please talk to me after!</h2>
         </section>
       </div>
     </div>
